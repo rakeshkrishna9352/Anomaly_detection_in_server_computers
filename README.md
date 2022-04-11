@@ -1,8 +1,12 @@
 # Anamoly_detection_in_server_computers
 
 ## Motivation
- 
+During my employement at TATA motors limited, there were many equiments used for manufacturing. These machines would sometimes function abnormally and only when something breaks down these could be detected. What if we flag the abnormally behaving machines beforehand, preventing breakdown? In such a case, an unsupervised Machine Learning model that detects anamoly would be helpful.
 
+## Overview
+A unsupervised Machine Learning Model to detect anamoly in computer servers is developed using Multivariate Gaussian Distribution.
+## Libraries Used
+*NumPy, Pandas, Matplotlib, Seaborn, Scikit_learn (for metrics only)*
 ## Methodology
 1. Verifying weather the features are normally distributed. Use log function in case any parameter is not normally ditributed
 2. Estimating the parameters for computing probablity density
